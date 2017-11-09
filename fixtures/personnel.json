@@ -1,0 +1,100 @@
+[
+    {
+        "id": "571e369aae06d8703c801468",
+        "Reference": "CS124992",
+        "GivenName": "Geraldine Mary",
+        "FamilyName": "Ratcliffe",
+        "DateOfBirth": "1964-07-28T00:00:00.000+0000",
+        "Gender": {
+            "_id": "000000000000000000000001",
+            "Description": "Female"
+        },
+        "NationalInsuranceNumber": "PE198272A",
+        "Nationality": {
+            "_id": "000000000000000000000001",
+            "Description": "British"
+        },
+        "EthnicOrigin": {
+            "_id": "000000000000000000000001",
+            "Description": "White"
+        },
+        "Allergies": [
+            {
+                "_id": "000000000000000000000001",
+                "Description": "Latex"
+            },
+            {
+                "_id": "000000000000000000000002",
+                "Description": "Penicillin"
+            },
+            {
+                "_id": "000000000000000000000003",
+                "Description": "Nuts"
+            }
+        ],
+        "Conditions": [],
+        "HomeAddress": "876 Central Road, Ibstock, Leicestershire, LE67 6YT",
+        "TelephoneNumbers": [
+            {
+                "Type": "Mobile",
+                "Value": "07871 114487",
+                "Preferred": true
+            }
+        ],
+        "EmailAddresses": [
+            {
+                "Value": "g.ratcliffe@sky.com",
+                "Preferred": true
+            },
+            {
+                "Value": "g.ratcliffe2002@gmail.com"
+            }
+        ],
+        "EmergencyContacts": [
+            {
+                "_id": "000000000000000000000001",
+                "Relationship": {
+                    "_id": "000000000000000000000001",
+                    "Description": "Spouse"
+                },
+                "Name": {
+                    "GivenName": "Roger",
+                    "FamilyName": "Greenhough"
+                },
+                "Address": "876 Central Road, Ibstock, Leicestershire, LE67 6YT",
+                "TelephoneNumbers": [
+                    {
+                        "Type": "Mobile",
+                        "Value": "07122 363252"
+                    }
+                ]
+            },
+            {
+                "_id": "000000000000000000000002",
+                "Relationship": {
+                    "_id": "000000000000000000000004",
+                    "Description": "Father"
+                },
+                "Name": {
+                    "GivenName": "Derek",
+                    "FamilyName": "Wilkinson"
+                },
+                "Address": "82 Green Street, Ashby-de-la-Zouch, LE66 3TR",
+                "TelephoneNumbers": [
+                    {
+                        "Type": "Mobile",
+                        "Value": "07343 554433"
+                    },
+                    {
+                        "Type": "Home",
+                        "Value": "01530 111111"
+                    }
+                ]
+            }
+        ],
+        "Weight": 60.6,
+        "Height": 168,
+        "Photo": "https://www.blplaw.com/images/lawyers/Geraldine-Quirk/geraldine-quirk-std1.png",
+        "Coordinates": "52.950532 -1.287986"
+    }
+]
