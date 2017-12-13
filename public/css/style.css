@@ -4,6 +4,8 @@ html {
 body {
   position: relative;
   min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
 }
 a {
   cursor: pointer;
@@ -11,4 +13,181 @@ a {
 
 .content {
     margin: 10px;
+}
+
+.topImg{
+    padding: 5px;
+    border: 1px solid #1883d5;
+    border-radius: 3px;
+    margin: 25px auto 15px auto;
+    max-height: 220px;
+}
+
+h3{
+    margin-top: 8px;
+}
+
+.topRef{
+    font-size: 18px;
+    text-align: center;
+    background-color: #1883d5;
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px 0 4px 0;
+}
+
+.topRef small{
+    color: #fff;
+    font-size: 16px;
+}
+
+.topName{
+    padding-left: 18px;
+}
+
+.topIcon{
+    position: relative;
+    top: 3px;
+    font-size: 28px !important;
+    padding: 10px 20px 10px 20px;
+    color: #1883d5;
+}
+
+.prefEmail{
+    position: relative;
+    left: -5px;
+    font-size: 20px;
+    color: #343434;
+    padding: 0px 0px 0px 0px;
+}
+
+.topAddress{
+    position: relative;
+    top: -28px;
+    left: 63px;
+
+}
+.topAddress p{
+    line-height: 0.8em;
+    font-size: 17px;
+    text-align: left;
+}
+
+.pDetail td, .contactRel td{
+    font-size: 13px;
+}
+
+.pDetail td:first-child, .contactRel td:first-child{
+    color: #909090;
+}
+
+.pDetail{
+    color: #343434;
+    padding: 0 10px 0 10px;
+}
+
+.pDetail, .prefList{
+    width: 100%;
+    table-layout : fixed;
+    margin: 5px 5px 15px 5px;
+}
+
+.pDetail td:last-child, .contactRel td:last-child{
+    text-align: right;
+}
+
+.pDetail tr, .prefList tr, .contactRel tr{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #dbdbdb !important;
+}
+
+.pDetail td, .prefList td, .contactRel td{
+    padding: 4px 15px 4px 10px;
+}
+
+.prefList th, .prefList td:last-child {
+    text-align: center;
+}
+
+.prefList th{
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.preferButton{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 1px 5px 1px 5px;
+    padding: 5px 5px 5px 5px;
+    outline: none;
+}
+
+.preferButton span.fa.fa-check, .preferButton span.fa.fa-times{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.preferButton span.fa.fa-check{
+    color: #00cc18;
+}
+
+.preferButton span.fa.fa-times{
+    color: red;
+}
+
+.Collapsible span{
+    display: block;
+    padding: 5px 15px 5px 8px;
+    margin: 2px;
+    border: 1px solid #1883d5;
+    border-radius: 3px;
+    color: #1883d5;
+}
+
+.Collapsible span:hover { cursor: pointer; }
+
+ul{
+    padding-top: 10px;
+}
+
+.is-open{
+    background-color: #f5f5f5;
+}
+
+.contactRel{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    table-layout : fixed;
+    margin: 15px 5px 25px 5px;
+}
+
+.contactRel td{
+    width: 50%;
+}
+
+.contactAddress{
+    padding-top: 8px;
+    line-height: 0.8em;
+    text-align: right;   
+}
+
+.contactTel td:last-child{
+    text-align: right;
+}
+
+.contactTel tr:last-child{
+    border-bottom: 1px solid #343434 !important;
+}
+
+.Arrow{
+    z-index: -10;
+    color: #9faaa6;
+    position: absolute;
+    padding-top: 12px;
+    right: 25px;
 }

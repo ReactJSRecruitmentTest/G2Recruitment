@@ -40,7 +40,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="content">
-                <div className="col-md-4">
+                <div className="container">
                     {this.state.personnel.map((record, index) => {
                         return <Personnel record={record} key={'personnel_' + index} />
                     })}
